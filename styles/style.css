@@ -42,15 +42,13 @@ nav{
 .menu-container{
   display: flex;
 }
-/* .shop{
-  margin-left: 30px;
-} */
-
 main{
   width: 100%;
   max-width: 970px;
   margin: auto;
 }
+
+
 /* --------------influencer-container--------------- */
 .influencer-container{
   width: 100%;
@@ -109,7 +107,9 @@ main{
   width: 340px;
   margin: 80px 50px;
 }
-/* ---------------------Popularr collection-------------------- */
+
+
+/* ---------------------Popular collection-------------------- */
 .collections{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -167,6 +167,49 @@ main{
   margin-left: 10px;
 }
 
+
+/* ----------------app-container----------------- */
+.app-details{
+  width: 100%;
+  display: flex;
+}
+.app-info{
+  width: 50%;
+  padding: 100px 0;
+}
+.app-info h1{
+  font-size: 52px;
+  color: #3A3A3A;
+}
+.app-info p{
+  margin: 16px 0;
+  color:#3A3A3A;
+}
+.app-info button{
+  width: 196px;
+  height: 44px;
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  color: white;
+  background-color: #02B290;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.app-img{
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.app-img img{
+  width: 80%;
+  border-radius: 10px;
+}
+
+
+
 /* ------------footer-section---------- */
 footer{
   background-color: #033f33;
@@ -186,7 +229,15 @@ footer h1{
   margin-right: 20px;
   margin-top: 10px;
 }
-/* ----------------media----------- */
+
+
+
+
+
+/* ----------------media query----------- */
+
+
+
 /* ------------moble-veiw------------ */
 @media only screen and (max-width: 688px) {
   .menu-bar{
@@ -231,6 +282,26 @@ footer h1{
   width: 100%;
   text-align: center;
  }
+ .app-details{
+  flex-direction: column;
+  
+  }
+  .app-info{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+  }
+  .app-img{
+    width: 80%;
+    margin: auto;
+    background-position: center;
+    background-size: contain;
+    justify-content: center;
+  }
+  
+  .app-img img{
+  width: 100%;
+  }
 
   footer{
   padding: 20px;
@@ -241,6 +312,7 @@ footer h1{
   margin-right: 10px;
   
 }
+
 }
 
 
@@ -289,6 +361,27 @@ footer h1{
   width: 90%;
 
  }
+ .app-details{
+  flex-direction: column;
+  
+  }
+  .app-info{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+  }
+  .app-img{
+    width: 80%;
+    margin: auto;
+    background-position: center;
+    background-size: contain;
+    justify-content: center;
+  }
+  
+  .app-img img{
+  width: 100%;
+  }
+
 
   footer{
   padding: 20px;
