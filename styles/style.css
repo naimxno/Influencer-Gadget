@@ -114,7 +114,24 @@ main{
   width: 340px;
   margin: 80px 50px;
 }
-
+.e-commerce{
+  width: 100%;
+  max-width: 970px;
+  margin: auto;
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(to left, #cac7c741, #9e9e9eab, #b8a8a80c);
+  border-image-slice: 1;
+}
+.e-commerce img{
+  width: 50px;
+  margin: 10px;
+}
 
 /* ---------------------Popular collection-------------------- */
 .collections{
