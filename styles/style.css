@@ -7,7 +7,9 @@
 body{
   font-family: 'Poppins', sans-serif;
 }
-/* ---------nav-ber---------- */
+
+
+/* ------------------nav-ber---------------------------- */
 nav{
   width: 100%;
   background-color: #02B290;
@@ -42,6 +44,11 @@ nav{
 .menu-container{
   display: flex;
 }
+
+
+
+
+
 main{
   width: 100%;
   max-width: 970px;
